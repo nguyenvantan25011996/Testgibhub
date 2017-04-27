@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <AbsoluteLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="274dp" android:layout_width="421dp" android:src="@drawable/hanoi_background" android:layout_y="3dp" android:layout_x="61dp" android:id="@+id/imageView1"/>
+
+    <View android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/dArea" class="com.as.drawing.DrawShape"/>
+
+</AbsoluteLayout>

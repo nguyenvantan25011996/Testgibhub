@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+    <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="instruct" android:background="@drawable/ins" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:id="@+id/medium"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="game" android:background="@drawable/gam" android:id="@+id/easy" android:layout_marginBottom="15dp" android:layout_alignLeft="@+id/medium" android:layout_above="@+id/medium"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="exit" android:background="@drawable/exit" android:id="@+id/hard" android:layout_alignLeft="@+id/medium" android:layout_marginTop="15dp" android:layout_below="@+id/medium"/>
+
+</RelativeLayout>
